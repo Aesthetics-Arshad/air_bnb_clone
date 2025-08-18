@@ -10,9 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_launcher_icons: "^0.13.1"
-  google_maps_flutter: ^2.5.0
-  geolocator: ^12.0.0
+  flutter_launcher_icons: "^0.14.4"
+  google_maps_flutter: ^2.3.0
+  geolocator: ^14.0.0
   image_picker: ^1.1.2
 
 
@@ -39,4 +39,5 @@ flutter_launcher_icons:
   image_path: "assets/img/icon.png"
   adaptive_icon_background: "#FFFFFF"
   adaptive_icon_foreground: "assets/img/icon.png"
+
 
