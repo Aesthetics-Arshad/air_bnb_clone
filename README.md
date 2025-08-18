@@ -16,7 +16,31 @@ It includes **Login, Signup, Explore, Wishlist, Trips, Profile**, and other esse
 - ❤️ **Wishlist Page** to save favorite properties  
 - ✈️ **Trips Page** for managing bookings  
 - 👤 **Profile Page** with editable details  
-- 🎨 Custom **Airbnb App Icon** integrated  
+- 🎨 Custom **Airbnb App Icon** integrated
+- ## 📂 Pages Implemented
+
+### 🔹 **Login Page**
+- User authentication UI  
+- Email & password input fields  
+- Login button with validation  
+
+### 🔹 **Signup Page**
+- New user registration UI  
+- Input fields for name, email, password  
+- Signup button with validation  
+
+### 🔹 **Explore Page**
+- Search bar for finding stays  
+- Map integration (coming soon)  
+- Shows popular destinations  
+
+### 🔹 **Listing Page**
+- Display property details  
+- Images, description, and pricing  
+
+### 🔹 **Profile Page**
+- User information  
+- Settings and Logout options  
 
 ## ScreenShots 
 <img width="250" height="500" alt="Screenshot_1755511719" src="https://github.com/user-attachments/assets/eb102d23-1ca1-4ceb-aec5-c32115c5384d" />
@@ -27,31 +51,58 @@ It includes **Login, Signup, Explore, Wishlist, Trips, Profile**, and other esse
 <img width="250" height="500" alt="Screenshot_1755530108" src="https://github.com/user-attachments/assets/09b298ee-1a20-42eb-9f3e-af4a4e8ae8b0" />
 <img width="250" height="500" alt="Screenshot_1755530116" src="https://github.com/user-attachments/assets/19c3bec8-d00b-42fc-9f45-b30d06587264" />
 <img width="250" height="500" alt="Screenshot_1755530123" src="https://github.com/user-attachments/assets/dde9ce62-c024-4549-85cc-df631f418b47" />
-## 📂 Project Structure  
 
+## 🚀 Steps to Run the Project
 
-## 🚀 Getting Started  
-
-1. Clone the repository  
+1. **Clone the Repository** (if downloaded from GitHub)
    ```bash
-   git clone https://github.com/your-username/airbnb-clone.git
-````
+   git clone https://github.com/your-username/airbnb-clone-flutter.git
+Open the Project
 
-2. Navigate into the project folder
+Open the project folder in Android Studio or VS Code.
 
-   ```bash
-   cd airbnb-clone
-   ```
-3. Install dependencies
+Install Dependencies
 
-   ```bash
-   flutter pub get
-   ```
-4. Run the app
+bash
+Copy
+Edit
+flutter pub get
+Run the Project
 
-   ```bash
-   flutter run
-   ```
+bash
+Copy
+Edit
+flutter run
+Build APK (Optional)
+
+bash
+Copy
+Edit
+flutter build apk --release
+🛠️ Tech Stack
+Flutter (Frontend & UI)
+
+Dart (Programming Language)
+
+Image Picker (for profile images)
+
+Custom UI Components
+
+✨ Features
+✅ Clean Airbnb-style UI
+✅ Login & Signup System
+✅ Explore page with search
+✅ Listings with details
+✅ Profile management
+
+📌 Future Improvements
+🌍 Integrate Maps (Google Maps API)
+
+🔐 Add Firebase Authentication & Firestore
+
+💳 Payment Gateway Integration
+
+📍 Location-based search
 
 
 ## 👨‍💻 Author
