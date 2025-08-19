@@ -17,7 +17,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build macos --release
 
-  build-ios:
+  build-ios-simulatou:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,4 +25,4 @@ jobs:
         with:
           flutter-version: '3.35.0'
       - run: flutter pub get
-      - run: flutter build ios --release
+      - run: flutter build ios --simulator
