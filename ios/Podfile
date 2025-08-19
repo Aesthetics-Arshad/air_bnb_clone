@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '14.0'
+
+# CocoaPods analytics
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+# Use frameworks and modular headers (required for many Flutter plugins)
+use_frameworks!
+use_modular_headers!
+
+# Ignore all warnings from pods
+inhibit_all_warnings!
+
+# Prepare symlinks for Flutter Pods
+target 'Runner' do
+  # Flutter Pod helper
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_application_path = '../'
+  load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+end
