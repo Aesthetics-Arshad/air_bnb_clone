@@ -12,3 +12,14 @@ jobs:
           flutter-version: '3.35.0'
       - run: flutter pub get
       - run: flutter build macos --release
+
+  build-ios-simulator:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.35.0'
+      - run: flutter pub get
+      - name: Build iOS for Simulator
+        run: flutter build ios --simulator
